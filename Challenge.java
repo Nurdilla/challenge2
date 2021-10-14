@@ -8,7 +8,7 @@ public class Challenge {
         System.out.println("Masukkan skor anda:");
         nilai = skor.nextInt();
 
-        if(nilai>=100) {
+        if(nilai>101) {
             System.out.println("Nilai salah");
         } else if (nilai>=91) {
             System.out.println("Nilai anda; A");    
